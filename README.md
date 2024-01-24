@@ -1,4 +1,4 @@
-# Hatsune Miku cursors for Linux!
+# Hatsune Miku cursors for Windows/Linux!
 
 ![alt text](https://github.com/supermariofps/hatsune-miku-linux-cursors/blob/main/thumb.png?raw=true)
 

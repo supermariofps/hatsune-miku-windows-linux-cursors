@@ -1,0 +1,52 @@
+; Miku
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+Blinking Cursor.ani
+ask.ani
+progress.ani
+Sleeping.ani
+Beam.ani
+circle.ani
+Vertical Resize.ani
+Horizontal Resize.ani
+Diagonal Resize 1.ani
+Diagonal Resize 2.ani
+Move.ani
+hand2_.ani
+Precision Select.ani
+handwritting.ani
+alias.ani
+[Strings]
+CUR_DIR       = "Cursors\Miku"
+SCHEME_NAME   = "Miku"
+pointer       = "Blinking Cursor.ani"
+help          = "ask.ani"
+work          = "progress.ani"
+busy          = "Sleeping.ani"
+text          = "Beam.ani"
+unavailiable  = "circle.ani"
+vert          = "Horizontal Resize.ani"
+horz          = "Vertical Resize.ani"
+dgn1          = "Diagonal Resize 1.ani"
+dgn2          = "Diagonal Resize 2.ani"
+move          = "Move.ani"
+link          = "hand2_.ani"
+cross         = "Precision Select.ani"
+hand          = "handwritting.ani"
+alternate     = "alias.ani"

@@ -6,7 +6,10 @@ This cursor set is a modified version of a Windows set created by [love0922cçš„å
 
 Hope you like it!
 
-## Installation Instructions (Linux)
+## Installation Instructions
+You can download a ZIP of this repository by clicking the green _Code_ button above and selecting _Download ZIP_ or by cloning it.
+
+### Linux
 1. Copy the `miku-cursor-linux/` dir to `/usr/share/icons/` (system-wide) or `~/.local/share/icons/` (per-user).
 2. [Select the theme through your DE's settings manager.](https://wiki.archlinux.org/title/Cursor_themes#Desktop_environments)
 3. On KDE, the desktop and some apps may default back to a different cursor set that isn't the one you chose. To fix this, add the following to `/usr/share/icons/default/index.theme` or `~/.local/share/icons/default/index.theme`:
@@ -14,4 +17,8 @@ Hope you like it!
 	[Icon Theme]
 	Inherits=miku-cursor-linux
 	```
+
+### Windows
+1. Open the `miku-cursor-windows\` folder in the ZIP.
+2. Right-click on `Install.inf` and select _Install_.
 

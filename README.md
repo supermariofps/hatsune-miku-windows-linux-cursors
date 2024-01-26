@@ -10,8 +10,8 @@ Hope you like it!
 1. Copy the `miku-cursor-linux/` dir to `/usr/share/icons/` (system-wide) or `~/.local/share/icons/` (per-user).
 2. [Select the theme through your DE's settings manager.](https://wiki.archlinux.org/title/Cursor_themes#Desktop_environments)
 3. On KDE, the desktop and some apps may default back to a different cursor set that isn't the one you chose. To fix this, add the following to `/usr/share/icons/default/index.theme` or `~/.local/share/icons/default/index.theme`:
-```ini
-[Icon Theme]
-Inherits=miku-cursor-linux
-```
+	```ini
+	[Icon Theme]
+	Inherits=miku-cursor-linux
+	```
 

@@ -19,34 +19,34 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 [Scheme.Cur]
 Blinking Cursor.ani
 ask.ani
-progress.ani
+Singing Cursor.ani
 Sleeping.ani
-Beam.ani
+beam.ani
 circle.ani
-Vertical Resize.ani
 Horizontal Resize.ani
+Vertical Resize.ani
 Diagonal Resize 1.ani
 Diagonal Resize 2.ani
 Move.ani
 hand2_.ani
 Precision Select.ani
-handwritting.ani
-alias.ani
+handwriting.ani
+Book Cursor.ani
 [Strings]
 CUR_DIR       = "Cursors\Miku"
 SCHEME_NAME   = "Miku"
 pointer       = "Blinking Cursor.ani"
 help          = "ask.ani"
-work          = "progress.ani"
+work          = "Singing Cursor.ani"
 busy          = "Sleeping.ani"
-text          = "Beam.ani"
+text          = "beam.ani"
 unavailiable  = "circle.ani"
-vert          = "Horizontal Resize.ani"
-horz          = "Vertical Resize.ani"
+vert          = "Vertical Resize.ani"
+horz          = "Horizontal Resize.ani"
 dgn1          = "Diagonal Resize 1.ani"
 dgn2          = "Diagonal Resize 2.ani"
 move          = "Move.ani"
 link          = "hand2_.ani"
 cross         = "Precision Select.ani"
-hand          = "handwritting.ani"
-alternate     = "alias.ani"
+hand          = "handwriting.ani"
+alternate     = "Book Cursor.ani"

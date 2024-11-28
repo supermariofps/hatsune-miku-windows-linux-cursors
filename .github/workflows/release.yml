@@ -1,0 +1,26 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Generate release
+        run: |
+          git archive --format=zip --prefix=miku-cursor-linux/ HEAD:miku-cursor-linux/ -o miku-cursor-linux.zip
+          git archive --format=zip --prefix=miku-cursor-windows/ HEAD:miku-cursor-windows/ -o miku-cursor-windows.zip
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            miku-cursor-linux.zip
+            miku-cursor-windows.zip

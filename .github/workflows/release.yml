@@ -16,11 +16,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Generate release
         run: |
-          git archive --format=zip --prefix=miku-cursor-linux/ HEAD:miku-cursor-linux/ -o miku-cursor-linux.zip
+          git archive --format=tar.xz --prefix=miku-cursor-linux/ HEAD:miku-cursor-linux/ -o miku-cursor-linux.tar.xz
           git archive --format=zip --prefix=miku-cursor-windows/ HEAD:miku-cursor-windows/ -o miku-cursor-windows.zip
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            miku-cursor-linux.zip
+            miku-cursor-linux.tar.xz
             miku-cursor-windows.zip

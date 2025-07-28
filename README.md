@@ -23,3 +23,9 @@ You can download a ZIP of this repository by clicking the green _Code_ button ab
 1. Open the `miku-cursor-windows\` folder in the ZIP.
 2. Right-click on `Install.inf` and select _Install_.
 
+### macOS (via [Mousecape](https://github.com/alexzielenski/Mousecape))
+1. Install Mousecape if not already installed and run.
+2. Navigate to File > Import Cape or use the keyboard shortcut ⌘O.
+3. Select the file `miku-cursor-macos/local.miku.775239121.898537.cape`.
+4. Right-click the new theme in Mousecape and click Apply.
+

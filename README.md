@@ -1,3 +1,8 @@
+>[!NOTE]
+>Hello! I decided to archive this repository since I don't see much of a reason to update it for now, unless a critical reason shows up, so feel free to fork it and do your things if you want!
+>
+>I wanted to see further into which type of license I could put here, but the original artist for the cursors has deleted their account/site or something else has happened, so I don't know how I should approach this, Sorry about that.
+
 # Hatsune Miku cursors for Windows/Linux!
 
 ![alt text](https://github.com/supermariofps/hatsune-miku-linux-cursors/blob/main/thumb.png?raw=true)
